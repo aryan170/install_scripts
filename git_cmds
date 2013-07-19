@@ -1,0 +1,38 @@
+    1  source install_git_heroku.csh 
+    2  which git
+    3  which heroku
+    4  whichnode
+    5  which node
+    6  ls
+    7  cd ..
+    8  ls
+    9  mkdir install_repo
+   10  cd install_repo/
+   11  cp ../install_* .
+   12  ls
+   13  git init
+   14  git add install_git_heroku.csh 
+   15  git add install_node_npm.csh 
+   16  \rm install_node_npm
+   17  \rm install_git_heroku
+   18  git commit -m "install_git_heroku"
+   19  git config --global user.name "nitin.kalra"
+   20  git config --global user.email "nitink_usa@yahoo.com"
+   21  git commit -m "install_git_heroku.csh" 
+   22  git commit -m "install_node_npm.csh" 
+   23  history
+   24  git status
+   25  git log
+   26  ls
+   27  pwd
+   28  git remote add origin https://github.com/aryan170/install_scripts.git
+   29  git push -u origin master
+   30  vi install_emacs.csh
+   31  ls
+   32  git add install_emacs.csh 
+   33  git commit -m "Emacs Install"
+   34  git log
+   35  history
+   36  git push -u origin master
+   37  history
+   38  history >& git_cmds
